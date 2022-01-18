@@ -28,10 +28,10 @@
  **Modify The `.env` File And Enter The  Required Values**
 ```javascript
 {
-    "bottoken": "YOUR BOT TOKEN GOES HERE",
-    "serverID": "YOUR SERVER ID",
-    "roleID": "YOUR ROLE ID THAT YOU WANT TO CHANGE",
-    "interval": "600000"
+"bottoken": "YOUR BOT TOKEN GOES HERE",
+"serverID": "YOUR SERVER ID",
+"roleID": "YOUR ROLE ID THAT YOU WANT TO CHANGE",
+"interval": "600000"
 }
 
 ```
