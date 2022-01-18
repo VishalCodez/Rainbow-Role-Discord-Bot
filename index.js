@@ -13,12 +13,12 @@ bot.on("ready", async () => {
     if (!role) throw `i cant find any role in server - ${guild.name}`
     //////////RAINBOW ROLE INTERVAL YOU CAN CHANGE IT ACCORDING TO YOUR MOOD 
     //////////BUT MAKE SURE DONT MAKE IT LESS THEN 10 SECONDS THEN IT WILL ABUSE DISCORD API
-    if (interval < 30000) console.log(`\n[!!!] now have some fun dumb`)
+    if (interval < 30000) console.log(`\nnow have some fun dumb`)
     setInterval(() => {
         role.edit({ color: 'RANDOM' }).catch(err => console.log(`facing error during changing the role`));
     }, interval)
     //////////SETING BOT ACTIVITY
-    bot.user.setPresence({ status: 'offline', activity: { name: 'Rainbow By | VC', type: 'WATCHING', } })
+    bot.user.setPresence({ status: 'online', activity: { name: 'Rainbow By | VC', type: 'WATCHING', } })
 })
 /////////////////////////////////////////LOGING IN THE BOT///////////////////////////
 bot.login(bottoken)
